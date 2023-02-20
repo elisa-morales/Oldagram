@@ -60,15 +60,25 @@ header img {
     padding: 0;
 }
 
+.fa-regular,
+.fa-solid {
+    font-size: 24px;
+}
+
+.fa-solid {
+    color: #fb3958;
+}
+
 .icon-img {
     width: 23px;
 }
 
-.icon-img:hover {
+.icon-img:hover,
+.fa-regular:hover {
     opacity: 0.5;
 }
 
-#like-icon:hover {
+.fa-solid:hover {
     transform: scale(1.2);   
 }
 
